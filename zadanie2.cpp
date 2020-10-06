@@ -17,6 +17,7 @@ int main()
 			file1.push_back(y);
 			counter++;
 		}
+		else break;
 	}
 
 	for (int i = 0; i < counter; i++) {
@@ -47,6 +48,7 @@ int main()
 			file2.push_back(z);
 			counter2++;
 		}
+		else break;
 	}
 
 	for (int i = 0; i < counter2; i++) {
