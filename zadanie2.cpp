@@ -67,3 +67,25 @@ int main()
 			cout << max2 * Max2;
 	}
 }
+/*ifstream FILE("‪C:\\Users\\st063159\\Documents\\1.txt");
+	FILE >> y;
+	vector <int> file1;
+	while (y != 0) {
+		FILE >> y;
+		if (y ==0)
+		 break;
+			if (y % 7 == 0 && y % 49 != 0) {
+				if (y > max)
+					max = y;
+			}
+			if (y % 7 != 0) {
+				if (y > Max)
+					Max = y;
+
+			}
+		}
+		if (max == 0 || Max == 0)
+			cout << 1;
+		else
+			cout << "pervoe - " <<max * Max <<"vtoroe -";
+	}*/
